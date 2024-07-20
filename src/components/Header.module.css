@@ -10,16 +10,3 @@
 .logo {
     height: 3rem;
 }
-
-.todo {
-    font-size: 2.5rem;
-    font-weight: bolder;
-}
-
-.to {
-    color: var(--blue);
-} 
-
-.do {
-    color: var(--purple-dark);
-}

@@ -1,0 +1,55 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    background: var(--gray-500);
+    color: var(--gray-100);
+
+    border: 1px solid var(--gray-400);
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+
+    height: 4.5rem; 
+}
+
+.task > div {
+    display: flex;
+    gap: 1rem;
+}
+
+.notChecked {
+    color: var(--blue);
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.checked {
+  color: var(--purple);
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.textNotCompleted {
+    color: var(--gray-100);
+}
+
+.textCompleted {
+    color: var(--gray-300);
+    text-decoration: line-through;
+}
+
+.delete {
+    color: var(--gray-300);
+    cursor: pointer;
+    transition: color 0.1s, background-color 0.1s;
+}
+
+.delete:hover {
+    color: var(--gray-200);
+    cursor: pointer;
+}
