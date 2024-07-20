@@ -32,7 +32,7 @@ const Todo = () => {
             return;
         }
         const newTask = generateTask(currTask);
-        setTasks([...tasks, newTask]);
+        setTasks([newTask, ...tasks]);
         setCurrTask('');
     };
 
